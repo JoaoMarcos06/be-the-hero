@@ -6,7 +6,6 @@ const ProfileController = require('./controller/ProfileController');
 const SessionController = require('./controller/SessionController');
 
 const routes = express.Router();
-const connection = require('./database/connection');
 
 routes.post('/sessions',SessionController.create);
 
